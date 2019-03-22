@@ -1,0 +1,72 @@
+/* this is the external style code to which my HTML file points */
+
+* {
+    font-family: sans-serif; /*assigns font type to any text found in HTML file*/
+    color: black; /*assigns black color to any text found in this container*/
+    background-color: #f7e8f5; /*color code found on google color picker tool to set background color for entire blog*/
+}
+/*global sets the background color and font for the entire file*/
+
+
+#header {
+	text-align: center;
+    font-size:35px;
+} 
+/*centers the header*/
+
+
+#container {
+	width:1500px;
+	height: 2000px;
+}
+/*sets the dimensions for the container which houses my columns of content*/
+
+
+#column1 {
+	font-size: 20px;
+	margin-left: 15px;
+	margin-top: 15px;
+	padding: 10px 10px 10px 20px;
+	width: 400px;
+	float: left; /*The 'float' property places an element on the left or right side of its container, allowing text and inline elements to wrap around it*/
+}
+/* any time 'column1' is called in the HTML file, sets the style for the left side of my page which will house the date for each blog post */
+
+
+#column2 {
+    font-size: 20px;
+	margin: 15px;
+	padding: 10px 10px 10px 15px;
+	width: 900px;/* establishes the width of my second column*/
+	float: left; /*The 'float' property places an element on the left or right side of its container, allowing text and inline elements to wrap around it*/
+}
+/* any time 'column2' is called in the HTML file, sets the style for the right side of my page which will house the content of each blog post*/
+
+#row1 {
+    height: 300px;
+    width: 1000px; /*establishes the height and width of my row*/
+    padding: 15px 15px 15px 15px; /*padding keeps my text from touching my border*/
+    float: left; /*The 'float' property places an element on the left or right side of its container, allowing text and inline elements to wrap around it*/
+    border-style: solid;
+    border-width: 8px;
+    border-color: white; /*the 'border-style', 'border-color' and 'border-width' tells the browser how I want the border of my row to look*/
+    margin-bottom: 15px; /*seperates my first row from my bottom row (vertical space)*/
+}
+/*anytime 'row1' is called in the HTML file, sets the style for a short bordered row of content*/
+
+#row2 {
+    height: 1300px;
+    width: 1000px; /*establishes the height and width of my row*/
+    padding: 15px 15px 15px 15px; /*padding keeps my text from touching my border*/
+    float: left; /*The 'float' property places an element on the left or right side of its container, allowing text and inline elements to wrap around it*/
+    border-style: solid;
+    border-width: 8px;
+    border-color: white; /*the 'border-style', 'border-color' and 'border-width tells the browser how I want the border of my row to look*/
+    
+    
+}
+/*anytime 'row1' is called in the HTML file, sets the style for a short bordered row of content*/
+
+#h3 {
+    text-align:center; /*centers the header anytime I call h3 in my html*/
+}
